@@ -9,7 +9,7 @@ from sys import exit
 def game_tebak_angka():
 
     print("======Selamat Datang di Game Tebak Angka======")
-    print("Silahkan tebak dari angka '1' sampai '20'\nKamu hanya punya kesempatan 5X ! ")
+    print("Silahkan tebak dari angka '1' sampai '20'\nKamu hanya punya 5X kesempatan  ! ")
 
     Rahasia = acak(1, 20)
     i = 5
