@@ -1,5 +1,5 @@
 '''Create By Adimas Fachri Ranunegoro
-    Inpired from Python from Automation book (AI Sweigart) '''
+    Inpired from Python for Automation book (AI Sweigart) '''
 
 from random import randint as acak 
 from os import system, name 
