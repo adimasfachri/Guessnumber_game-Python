@@ -75,7 +75,7 @@ def clear():
         _ = system('clear')
 
 def fail_notif():
-    print("Kesempatan kamu sudah habis\nSayang sekali kamu gagal buat nebak angkanya :(\nangkanya misteriusnya adalah " + str(Rahasia))
+    print("Kesempatan kamu sudah habis\nSayang sekali kamu gagal buat nebak angkanya :(\nangka misteriusnya adalah " + str(Rahasia))
 
     
         
