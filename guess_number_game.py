@@ -5,13 +5,14 @@ from random import randint as acak
 from os import system, name 
 from sys import exit
 
+Rahasia = acak(1, 20)
 
 def game_tebak_angka():
 
     print("======Selamat Datang di Game Tebak Angka======")
-    print("Silahkan tebak dari angka '1' sampai '20'\nKamu hanya punya 5X kesempatan  ! ")
+    print("Silahkan tebak dari angka '1' sampai '20'\nKamu hanya punya 5X kesempatan!")
 
-    Rahasia = acak(1, 20)
+   
     i = 5
 
     while(i > 0):
@@ -74,7 +75,9 @@ def clear():
         _ = system('clear')
 
 def fail_notif():
-    print("Kesempatan kamu sudah habis\nSayang sekali kamu gagal buat nebak angkanya :(")
+    print("Kesempatan kamu sudah habis\nSayang sekali kamu gagal buat nebak angkanya :(\nangkanya misteriusnya adalah " + str(Rahasia))
+
+    
         
 
 if __name__ == "__main__":
